@@ -12,7 +12,7 @@ In most configurations, no changes to the configuration files are necessary.
 See the following knowledge base article at [link:https://access.redhat.com/site/articles/696163] for any known incompatibilities.
 Retest carefully all applications consuming SNMP data from this system with the updated Net-SNMP package.
 _EOF_
-    exit $RESULT_INFORMATIONAL
+    exit $RESULT_FAIL
 fi
 
 exit $RESULT_PASS
